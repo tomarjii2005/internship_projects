@@ -1,0 +1,56 @@
+#calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color: #845254;
+    border: 1px solid hsl(257, 62%, 42%);
+    border-radius: 5px;
+  }
+   
+  /* Style the calculator buttons */
+  #calculator button {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #10683f;
+    border: 1px solid hsl(210, 40%, 19%);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+   
+  /* Add styles for the operator buttons */
+  #calculator .operator {
+    background-color: #f0ad4e;
+    color: #fff;
+  }
+   
+  /* Add styles for the equal button */
+  #calculator .equal {
+    background-color: #5cb85c;
+    color: #270a6b;
+  }
+   
+  /* Add styles for the clear button */
+  #calculator .clear {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  div id="calculator">
+  <button>7</button>
+  <button>8</button>
+  <button>9</button>
+  <button class="operator">+</button>
+  <button>4</button>
+  <button>5</button>
+  <button>6</button>
+  <button class="operator">-</button>
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button class="operator">*</button>
+  <button class="clear">C</button>
+  <button>0</button>
+  <button class="equal">=</button>
+  <button class="operator">/</button>
+</div>
